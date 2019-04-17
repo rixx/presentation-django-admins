@@ -1,0 +1,19 @@
+{
+  "name": "presentation-django-admins",
+  "version": "0.1.0",
+  "description": "Presentation on installing and maintaining Django projects, for administrators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixx/presentation-django-admins.git"
+  },
+  "author": "Tobias Kunze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rixx/presentation-django-admins/issues"
+  },
+  "homepage": "https://github.com/rixx/presentation-django-admins#readme"
+}
