@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/rixx/presentation-django-admins/issues"
   },
-  "homepage": "https://github.com/rixx/presentation-django-admins#readme"
+  "homepage": "https://github.com/rixx/presentation-django-admins#readme",
+  "dependencies": {
+    "markdown-it-implicit-figures": "^0.9.0",
+    "vuepress": "^1.0.0-alpha.47",
+    "vuepress-theme-daumenkino": "^0.1.3"
+  }
 }
