@@ -19,6 +19,6 @@
   "dependencies": {
     "markdown-it-implicit-figures": "^0.9.0",
     "vuepress": "^1.0.0-alpha.47",
-    "vuepress-theme-daumenkino": "^0.1.3"
+    "vuepress-theme-daumenkino": "^0.1.5"
   }
 }
