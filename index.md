@@ -67,10 +67,14 @@ Running migrations:
   No migrations to apply.
 ```
 
+<fragment>
+
 ```shell
   Your models have changes that are not yet reflected in a migration, and so won't be applied.
   Run 'manage.py makemigrations' to make new migrations, and then re-run 'manage.py migrate' to apply them.
 ```
+
+</fragment>
 
 </div>
 
