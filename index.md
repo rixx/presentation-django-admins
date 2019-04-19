@@ -2,7 +2,11 @@
 
 ---
 
-# Django für Admins
+</slide>
+
+<slide id="first">
+
+![Django](./django_fuer_admins.png)
 
 ::: notes
 - Django-Grundprinzipien, Erfahrungswerte
