@@ -10,11 +10,19 @@
 
 ::: notes
 - Django-Grundprinzipien, Erfahrungswerte
-- Verfügbar online
+- Für Admins von django-basierten Projekten & Entwickler
+- Folien verfügbar online
 :::
 ---
 
+<div id="me">
+
+![rixx](./rixx.png)
 ### rixx
+
+</div>
+
+🗺 rixx.de · 🐦 @rixxtr · 🐘 @rixx@chaos.social
 
 ::: notes
 - Django-Entwickler, contributor zum Django-Projekt, in der Django-Community aktiv unterwegs
