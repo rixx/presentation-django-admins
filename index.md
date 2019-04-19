@@ -48,14 +48,40 @@
 </div>
 
 ::: notes
-Unterstützte DBs
-Modelle schreiben
-Werden in Migrationen überführt
-in Reihenfolge, Migrationen verkacken ist idr rettbar, aber nur mit viel Aufwand
-NICHT ERSTELLEN
+- Unterstützte DBs
+- Modelle sind Tabellen
 :::
 
 ===
+
+# Migrationen
+
+<div id="migrate-code">
+
+```shell
+$ python manage.py migrate
+
+Operations to perform:
+  Apply all migrations: auth, authtoken, contenttypes, myapp, sessions
+Running migrations:
+  No migrations to apply.
+```
+
+```shell
+  Your models have changes that are not yet reflected in a migration, and so won't be applied.
+  Run 'manage.py makemigrations' to make new migrations, and then re-run 'manage.py migrate' to apply them.
+```
+
+</div>
+
+::: notes
+- Werden in Migrationen überführt
+- in Reihenfolge, Migrationen verkacken ist idr rettbar, aber nur mit viel Aufwand
+
+$(DO NOT RUN MAKEMIGRATIONS. IT's like git push -f)
+:::
+
+---
 
 ## Dateien
 
@@ -80,11 +106,11 @@ wo kommen sie her, wie gehen sie hin
 
 ## Installation
 
-===
+---
 
 ## Konfiguration
 
-===
+---
 
 ## Services
 
@@ -105,6 +131,5 @@ sessions
 ::: notes
 - Ressourcen
   - Docs: Kompatibilität/Support
-# Code
 
 :::
