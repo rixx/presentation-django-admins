@@ -46,6 +46,17 @@ NICHT ERSTELLEN
 
 %(statisch) vs %(media)
 
+
+===
+
+## Dateien
+
+```python{2}
+STATIC_ROOT=
+MEDIA_ROOT=
+```
+
+
 ::: notes
 wo kommen sie her, wie gehen sie hin
 :::
@@ -81,9 +92,4 @@ sessions
   - Docs: Kompatibilität/Support
 # Code
 
-```js{2}
-import Lib from 'lib'
-const foo = new Lib() // you can highlight lines
-const foo.bar()
-```
 :::
