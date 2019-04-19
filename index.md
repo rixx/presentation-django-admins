@@ -35,15 +35,45 @@
 ![Django](./django.png)
 
 ::: notes
-- Web-Framework in Python
-- alt (über 10 Jahre)
-- professionell: security updates, release-schedule
-- stabil: DSF, geld, maintainer
+Web-Framework in Python, eher alt (über 10 Jahre)<br>
+professionell: security updates, release-schedule<br>
+stabil: DSF, geld, maintainer<br>
 
-- Funktionsweise:
-  - Layer für Datenbank und Filesystem
-  - Bekommt Requests, verarbeitet sie, rendert bei Bedarf Templates für die Antwort
-- Interaktion: manage.py
+Layer für Datenbank und Filesystem<br>
+Bekommt Requests, verarbeitet sie, rendert bei Bedarf Templates für die Antwort<br>
+:::
+
+===
+
+## manage.py
+
+```shell
+$ python ./manage.py help
+
+Type 'manage.py help <subcommand>' for help on a specific subcommand.
+Available subcommands:
+
+[auth]
+    changepassword
+    createsuperuser
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    …
+```
+
+::: notes
+Interaktion via runserver.
 :::
 
 ---
@@ -56,6 +86,7 @@
 %( ![Mariadb](./mariadb.svg) )
 %( ![MySQL](./mysql.svg) )
 %( ![SQLite](./sqlite.svg) )
+%( ![Oracle](./oracle.png) )
 
 </div>
 
@@ -94,7 +125,7 @@ Running migrations:
 - Werden in Migrationen überführt
 - in Reihenfolge, Migrationen verkacken ist idr rettbar, aber nur mit viel Aufwand
 
-$(DO NOT RUN MAKEMIGRATIONS. IT's like git push -f)
+DO NOT RUN MAKEMIGRATIONS. IT's like git push -f
 :::
 
 ---
