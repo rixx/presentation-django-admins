@@ -4,33 +4,48 @@
 
 # Django für Admins
 
+::: notes
+- Django-Grundprinzipien, Erfahrungswerte
+- Verfügbar online
+:::
 ---
 
 ### rixx
 
 ::: notes
-
-- ich: Django-Entwickler, contributor zum Django-Projekt, in der Django-Community aktiv unterwegs
-- diverse kleine, mittlere und große Djangoprojekte, einige davon betreibe ich auch selber in prod
-- Vortrag: Django-Grundprinzipien, Erfahrungswerte, blablabla. Slides verfügbar
-
+- Django-Entwickler, contributor zum Django-Projekt, in der Django-Community aktiv unterwegs
+- entwickle kleine/mittlere/große Djangoprojekte, leite dadurch auch andere in ihrem Einsatz an
+- betreibe Django in Prod, nicht immer meine eigenen Projekte
 :::
 
 ---
 
 ![Django](./django.png)
-::: notes
 
+::: notes
 - Web-Framework in Python
-- alt, stabil (über 10 Jahre)
-- professionell: security updates, update-schedule
-- professionell: DSF, geld, maintainer
-jetzt kurz: Überblick/Funktionsweise
+- alt (über 10 Jahre)
+- professionell: security updates, release-schedule
+- stabil: DSF, geld, maintainer
+
+- Funktionsweise:
+  - Layer für Datenbank und Filesystem
+  - Bekommt Requests, verarbeitet sie, rendert bei Bedarf Templates für die Antwort
+- Interaktion: manage.py
 :::
 
-===
+---
 
-## Datenbank
+# Datenbank
+
+<div id='db-logos'>
+
+%( ![Postgres](./postgres.svg) )
+%( ![Mariadb](./mariadb.svg) )
+%( ![MySQL](./mysql.svg) )
+%( ![SQLite](./sqlite.svg) )
+
+</div>
 
 ::: notes
 Unterstützte DBs
