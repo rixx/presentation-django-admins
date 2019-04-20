@@ -1,6 +1,8 @@
 code, .language-text
   font-size: 15px !important
   line-height: 1.4 !important
+li code
+  font-size: 0.85em !important
 #first
   background-color: #092e20
 #me
@@ -12,14 +14,25 @@ code, .language-text
 #db-logos img
   display: inline-block
   max-height: 200px
-#migrate-code
-  .language-shell:first-child
-    border-bottom-left-radius: 0
-    border-bottom-right-radius: 0
-  .language-shell:last-child
-    border-top-left-radius: 0
-    border-top-right-radius: 0
-    .language-text
-      padding-top: 0
-      code
-        color: red
+#migrate-code, #config-code
+  pre.language-ini
+    line-height: 0.5
+  pre.language-shell, pre.language-python
+    padding-bottom: 0
+    padding-top: 0
+    line-height: 0.5
+  div.language-shell, div.language-python
+    border-radius: 0
+    &:before
+      display: none
+  div.language-shell:last-child, div.language-python:last-child
+    border-bottom-left-radius: 6px
+    border-bottom-right-radius: 6px
+    padding-bottom: 1.25rem
+  div.language-shell:first-child, div.language-python:first-child
+    border-top-left-radius: 6px
+    border-top-right-radius: 6px
+    padding-top: 1.25rem
+#migrate-code .language-shell:last-child .language-text
+  code
+    color: red
