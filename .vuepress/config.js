@@ -1,1 +1,4 @@
-module.exports = {theme: 'daumenkino'}
+module.exports = {
+    theme: 'daumenkino',
+    title: 'Django für Admins',
+}
